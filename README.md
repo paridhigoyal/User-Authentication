@@ -41,12 +41,12 @@ __user_authentication_project__<br/>
 
 
 # Running locally
--create a virtual environment.
--create a django project.
--clone the repo using git@github.com:paridhigoyal/User-Authentication.git
--pip install -r requirements/dev.txt
--python manage.py migrate
--python manage.py runserver.
+1.create a virtual environment.<br/>
+2.create a django project.<br/>
+3.clone the repo using git@github.com:paridhigoyal/User-Authentication.git<br/>
+4.pip install -r requirements/dev.txt<br/>
+5.python manage.py migrate<br/>
+6.python manage.py runserver.<br/>
 
 
 
