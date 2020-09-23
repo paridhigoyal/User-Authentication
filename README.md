@@ -9,7 +9,7 @@ This project consist of User authentication and authorization consists of User s
 # Project Structure
 user_authentication_project
 |--templates<br />
-  |--base.html<br />
+  &nbsp;|--base.html<br />
   |--index.html<br />
   |--account<br />
     |--change_password.html<br />
