@@ -12,14 +12,14 @@ __user_authentication_project__<br/>
 |&nbsp; &nbsp;|--base.html<br />
 |&nbsp; &nbsp;|--index.html<br />
 |&nbsp; &nbsp;|--__account__<br />
-|&nbsp; &nbsp; &nbsp; &nbsp;  |--change_password.html<br />
-|&nbsp; &nbsp;  &nbsp; &nbsp; |--forget_password.html<br />
-|&nbsp; &nbsp; &nbsp; &nbsp;  |--login.html<br />
-|&nbsp; &nbsp;&nbsp; &nbsp;   |--password_reset_complete.html<br />
-|&nbsp; &nbsp; &nbsp; &nbsp;  |--password_reset_confirm.html<br />
-|&nbsp; &nbsp; &nbsp; &nbsp;  |--password_reset_done.html<br />
-|&nbsp; &nbsp; &nbsp; &nbsp;  |--profile_update.html<br />
-|&nbsp; &nbsp;  &nbsp; &nbsp; |--signup.html<br />
+|&nbsp; &nbsp;&nbsp; &nbsp;|--change_password.html<br />
+|&nbsp; &nbsp;&nbsp; &nbsp;|--forget_password.html<br />
+|&nbsp; &nbsp;&nbsp; &nbsp;|--login.html<br />
+|&nbsp; &nbsp;&nbsp; &nbsp;|--password_reset_complete.html<br />
+|&nbsp; &nbsp;&nbsp; &nbsp;|--password_reset_confirm.html<br />
+|&nbsp; &nbsp;&nbsp; &nbsp;|--password_reset_done.html<br />
+|&nbsp; &nbsp;&nbsp; &nbsp;|--profile_update.html<br />
+|&nbsp; &nbsp;&nbsp; &nbsp;|--signup.html<br />
 |--__user_authentication_project__<br />
 |&nbsp; &nbsp; |--migrations<br />
 |&nbsp; &nbsp; |--__pycache__<br />
