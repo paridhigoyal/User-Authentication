@@ -7,36 +7,36 @@ This project consist of User authentication and authorization consists of User s
 - MySQL Database
 
 # Project Structure
-user_authentication_project
+user_authentication_project<br/>
 |--templates<br />
-  &nbsp;|--base.html<br />
-  |--index.html<br />
-  |--account<br />
-    |--change_password.html<br />
-    |--forget_password.html<br />
-    |--login.html<br />
-    |--password_reset_complete.html<br />
-    |--password_reset_confirm.html<br /><br />
-    |--password_reset_done.html<br />
-    |--profile_update.html<br />
-    |--signup.html<br />
+ &nbsp; &nbsp;|--base.html<br />
+  &nbsp; &nbsp;|--index.html<br />
+|--account<br />
+   &nbsp; &nbsp; |--change_password.html<br />
+   &nbsp; &nbsp; |--forget_password.html<br />
+  &nbsp; &nbsp;  |--login.html<br />
+   &nbsp; &nbsp; |--password_reset_complete.html<br />
+    &nbsp; &nbsp; |--password_reset_confirm.html<br /><br />
+   &nbsp; &nbsp; |--password_reset_done.html<br />
+    &nbsp; &nbsp; |--profile_update.html<br />
+    &nbsp; &nbsp; |--signup.html<br />
 |--user_authentication_project<br />
-  |--migrations<br />
-  |--__pycache__<br />
-  |--admin.py<br />
-  |--apps.py<br />
-  |--forms.py<br />
-  |--__init__.py<br />
-  |--models.py<br />
-  |--tests.py<br />
-  |--urls.py<br />
-  |--views.py<br />
+   &nbsp; &nbsp;|--migrations<br />
+  &nbsp; &nbsp; |--__pycache__<br />
+   &nbsp; &nbsp;|--admin.py<br />
+  &nbsp; &nbsp; |--apps.py<br />
+  &nbsp; &nbsp; |--forms.py<br />
+   &nbsp; &nbsp;|--__init__.py<br />
+  &nbsp; &nbsp;|--models.py<br />
+  &nbsp; &nbsp; |--tests.py<br />
+   &nbsp; &nbsp;|--urls.py<br />
+   &nbsp; &nbsp;|--views.py<br />
 |--user_authentication_project<br />
-  |--__pycache__<br />
-  |--__init__.py<br />
-  |--settings.py<br />
-  |--urls.py<br />
-  |--wsgi.py<br />
+  &nbsp; &nbsp; |--__pycache__<br />
+  &nbsp; &nbsp; |--__init__.py<br />
+  &nbsp; &nbsp; |--settings.py<br />
+  &nbsp; &nbsp; |--urls.py<br />
+   &nbsp; &nbsp;|--wsgi.py<br />
 |--manage.py<br />
 
 
