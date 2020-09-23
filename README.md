@@ -41,12 +41,12 @@ __user_authentication_project__<br/>
 
 
 # Running locally
-1.__create a virtual environment__ virtual env <br/>
-2.__Clone the repo__    git@github.com:paridhigoyal/User-Authentication.git<br/>
+1.__Create a virtual environment :__ virtual env <br/>
+2.__Clone the repo :__    git@github.com:paridhigoyal/User-Authentication.git<br/>
 3.pip install -r requirements/dev.txt<br/>
-4.__To create Database__  python manage.py migrate<br/>
-5.__To create admin__  python manage.py createsuperuser<br/>
-6.__To run project__  python manage.py runserver.<br/>
+4.__Create Database :__  python manage.py migrate<br/>
+5.__Create admin :__  python manage.py createsuperuser<br/>
+6.__Run project :__  python manage.py runserver.<br/>
 
 
 
