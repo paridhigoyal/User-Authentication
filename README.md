@@ -40,7 +40,7 @@ __user_authentication_project__<br/>
 |--manage.py<br />
 
 
-#Running locally
+# Running locally
 -create a virtual environment.
 -create a django project.
 -clone the repo using git@github.com:paridhigoyal/User-Authentication.git
