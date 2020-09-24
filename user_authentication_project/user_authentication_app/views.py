@@ -1,11 +1,9 @@
-from django.shortcuts import render, HttpResponseRedirect
-from django.contrib.auth.forms import AuthenticationForm
+from django.contrib.auth import (authenticate, login, logout,
+                                 update_session_auth_hash)
+from django.contrib.auth.forms import AuthenticationForm, PasswordChangeForm
+from django.shortcuts import HttpResponseRedirect, render
+
 from .forms import CustomSignupForm, UpdateUserProfileForm
-from django.contrib import messages
-from django.contrib.auth.forms import PasswordChangeForm
-from django.contrib.auth import (
-    authenticate, login, logout, update_session_auth_hash
-)
 
 
 def index(request):
@@ -51,7 +49,7 @@ def update_profile(request):
                 form.save()
                 return HttpResponseRedirect('/')
         else:
-            form = UpdateUserProfileForm(instance=request.user)            
+            form = UpdateUserProfileForm(instance=request.user)
         return render(request, 'account/profile_update.html', {'form': form})
     else:
         return HttpResponseRedirect('login')
