@@ -42,7 +42,7 @@ __user_authentication_project__<br/>
 
 
 # Running locally
-1.__Create a virtual environment :__ virtual env <br/>
+1.__Create a virtual environment :__ virtualenv venv <br/>
 2.__Clone the repo :__    git@github.com:paridhigoyal/User-Authentication.git<br/>
 3.pip install -r requirements/dev.txt<br/>
 4.__Create Database :__  python manage.py migrate<br/>
